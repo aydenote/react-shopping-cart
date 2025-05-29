@@ -12304,7 +12304,7 @@ const SubTitle = newStyled.h3`
 function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Global, { styles: GlobalStyle }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(DataProvider, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(DataProvider, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { basename: "/react-shopping-cart", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CartPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/orderConfirm", element: /* @__PURE__ */ jsxRuntimeExports.jsx(OrderConfirmPage, {}) })
     ] }) }) }) })
